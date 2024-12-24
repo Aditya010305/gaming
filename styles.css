@@ -1,4 +1,3 @@
-/* General Styling */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -20,10 +19,9 @@ header{
 .logo{
     height: 80px;
     width: 80px;
-    background-image: url('\image.png');
+    background-image: url('https://github.com/Aditya010305/gaming/blob/main/image.png?raw=true');
     background-size: cover;
 }
-/* Header Styling */
 header {
     padding: 20px 0;
     background: rgba(0, 0, 0, 0.5);
@@ -37,7 +35,6 @@ h1 {
     font-size: 2.5em;
 }
 
-/* Main Content */
 main {
     flex: 1;
     padding: 20px;
@@ -81,10 +78,9 @@ main {
     background: rgba(255, 255, 255, 0.4);
 }
 
-/* Styling for Coming Soon Box */
 .coming-soon {
     background: rgba(0, 0, 0, 0.2);
-    cursor: not-allowed; /* Indicates it's not clickable */
+    cursor: not-allowed; 
     color: #ddd;
     text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
 }
