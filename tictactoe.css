@@ -1,0 +1,111 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+body{
+    background-color: #547987;
+}
+#heading{
+    color: #000000;
+    padding-top: 15px;
+    text-align: center;
+    text-decoration: underline;
+    font-size: 4.5rem;
+    font-weight: 900;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+
+}
+.row{
+    margin-left: 5px;
+}
+.div_dsg{
+    height: 20vh;
+    width: 20vh;
+    margin-right: 7px;
+    margin-bottom:7px;
+}
+.button{
+    height: 99%;
+    width: 99%;
+    border: 0px solid transparent;
+    background-color: white;
+    border-radius: 10px;
+    font-size: 5rem;
+    color: #b0413e;
+}
+.row{
+    display: flex;
+    justify-content: center;
+}
+#reset_btn{
+    font-size: 1.3rem;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 3rem;
+    width: 10rem;
+    color: #ffffff;
+    border-radius: 10px;
+    border: 1px;
+    background-color: #FF7043;
+    border-color: #FFABAB;
+    transition: transform 0.3s , background 0.3s;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    margin-right: 20px;
+}
+#return_btn{
+    font-size: 1.3rem;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 3rem;
+    width: 10rem;
+    color: #ffffff;
+    border-radius: 10px;
+    border: 1px;
+    background-color: #4CAF50;
+    border-color: #FFABAB;
+    transition: transform 0.3s , background 0.3s;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+#new_game{
+    font-size: 1.3rem;
+    margin-top: 20px;
+    height: 4rem;
+    width: 13rem;
+    color: #ffffff;
+    border-radius: 10px;
+    border: none;
+    background-color: #4CAF50;
+    transition: transform 0.3s , background 0.3s;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+.new_g{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 100vh;
+    flex-direction: column;
+    gap: 2rem;
+}
+#para{
+    font-size: 3rem;
+    margin-top: 10px;
+    color: #252424;
+    border-radius: 5px;
+}
+#reset_btn:hover{
+    background-color: #E64A19;
+    transform: scale(1.1);
+}
+#return_btn:hover{
+    background-color: #388E3C;
+    transform: scale(1.1);
+}
+#new_game:hover{
+    background-color: #388E3C;
+    transform: scale(1.1);
+}
+.hide{
+    display: none;
+}

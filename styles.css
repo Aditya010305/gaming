@@ -1,0 +1,98 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(45deg, #da762a, #df1421);
+    color: #fff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+header{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap:50px;
+    align-items: center;
+}
+.logo{
+    height: 80px;
+    width: 80px;
+    background-image: url('\image.png');
+    background-size: cover;
+}
+/* Header Styling */
+header {
+    padding: 20px 0;
+    background: rgba(0, 0, 0, 0.5);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+/* Main Content */
+main {
+    flex: 1;
+    padding: 20px;
+}
+
+.game-menu {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 100px;
+    flex-wrap: wrap;
+}
+
+.game-card {
+    text-decoration: none;
+    background: rgba(255, 255, 255, 0.2);
+    padding: 20px;
+    width: 200px;
+    border-radius: 10px;
+    transition: transform 0.3s, background 0.3s;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.game-card h2 {
+    margin-top: 0;
+    color: #fff;
+}
+
+.game-card p {
+    font-size: 0.9em;
+    margin: 10px 0 0;
+    color: #fff;
+    transition: color 0.3s;
+}
+.game-card:hover #para{
+    color: #e3e35b;
+}
+
+.game-card:hover {
+    transform: scale(1.1);
+    background: rgba(255, 255, 255, 0.4);
+}
+
+/* Styling for Coming Soon Box */
+.coming-soon {
+    background: rgba(0, 0, 0, 0.2);
+    cursor: not-allowed; /* Indicates it's not clickable */
+    color: #ddd;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+}
+
+footer {
+    padding: 10px 0;
+    background: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

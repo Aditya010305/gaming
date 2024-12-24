@@ -1,0 +1,136 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.nav{
+    background-color: #3d405b;
+    height: 8rem;
+}
+#heading{
+    color: white;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    line-height: 8rem;
+    font-size: 3rem;
+}
+#stone{
+    height: 10rem;
+    width: 10rem;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    background-image: url(rock.png);
+    background-position-x: 6cm;
+    background-size: cover;
+    background-color: #8E44AD;
+    border-radius: 50%;
+}
+#paper{
+    height: 10rem;
+    width: 10rem;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    background-image: url(paper.png);
+    background-position-x: 6cm;
+    background-size: cover;
+    background-color: #1ABC9C;
+    border-radius: 50%;
+}
+#scissor{
+    height: 10rem;
+    width: 10rem;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    background-image: url(scissors.png);
+    background-position-x: 6cm;
+    background-size: cover;
+    background-color: #D32F2F;
+    border-radius: 50%;
+}
+.choices{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 34vh;
+    gap: 2rem;
+}
+.score{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+}
+#you p{
+    font-size: 3rem;
+    text-align: center;
+}
+#comp p{
+    font-size: 3rem;
+    text-align: center;
+}
+#draw p{
+    font-size: 3rem;
+    text-align: center;
+}
+.pick{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+}
+#pick{
+    background-color: #3d405b;
+    height: 10rem;
+    width: 100%;
+    text-align: center;
+    line-height: 10rem;
+    font-size: 3rem;
+    font-weight: 700;
+    color: white;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+#you #y_scr{
+    font-size: 4rem;
+}
+#comp #comp_scr{
+    font-size: 4rem;
+}
+#draw #draw_scr{
+    font-size: 4rem;
+}
+.hover:hover{
+    opacity: 0.7;
+    cursor: pointer;
+}
+#rest{
+    margin-top:10px;
+    text-align: center;
+}
+#rest button{
+    transition: transform 0.3s;
+}
+#restart{
+    height: 3rem;
+    width: 8rem;
+    border-radius: 10px;
+    margin-top: 1rem;
+    background-color: #3d405b;
+    border: 0;
+    font-size: 1.3rem;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    color: white;
+    margin-right: 15px;
+}
+#return{
+    height: 3rem;
+    width: 8rem;
+    border-radius: 10px;
+    margin-top: 1rem;
+    background-color: #3d405b;
+    border: 0;
+    font-size: 1.3rem;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    color: white;
+}
+#rest button:hover{
+    transform: scale(1.1);
+}
+.hide{
+    display: none;
+}
